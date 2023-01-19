@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8417D78C297777F700DE435C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417D78B297777F700DE435C /* AppDelegate.swift */; };
+		8417D78E297777F700DE435C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417D78D297777F700DE435C /* SceneDelegate.swift */; };
+		8417D790297777F700DE435C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417D78F297777F700DE435C /* ViewController.swift */; };
+		8417D793297777F700DE435C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8417D791297777F700DE435C /* Main.storyboard */; };
+		8417D795297777FA00DE435C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8417D794297777FA00DE435C /* Assets.xcassets */; };
+		8417D798297777FA00DE435C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8417D796297777FA00DE435C /* LaunchScreen.storyboard */; };
+		8417D7A3297777FB00DE435C /* Bao_Ha_IntroductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417D7A2297777FB00DE435C /* Bao_Ha_IntroductionTests.swift */; };
+		8417D7AD297777FB00DE435C /* Bao_Ha_IntroductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417D7AC297777FB00DE435C /* Bao_Ha_IntroductionUITests.swift */; };
+		8417D7AF297777FB00DE435C /* Bao_Ha_IntroductionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417D7AE297777FB00DE435C /* Bao_Ha_IntroductionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8417D79F297777FB00DE435C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8417D780297777F700DE435C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8417D787297777F700DE435C;
+			remoteInfo = "Bao Ha Introduction";
+		};
+		8417D7A9297777FB00DE435C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8417D780297777F700DE435C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8417D787297777F700DE435C;
+			remoteInfo = "Bao Ha Introduction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8417D788297777F700DE435C /* Bao Ha Introduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bao Ha Introduction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417D78B297777F700DE435C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8417D78D297777F700DE435C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8417D78F297777F700DE435C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8417D792297777F700DE435C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8417D794297777FA00DE435C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8417D797297777FA00DE435C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8417D799297777FA00DE435C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8417D79E297777FB00DE435C /* Bao Ha IntroductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bao Ha IntroductionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417D7A2297777FB00DE435C /* Bao_Ha_IntroductionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bao_Ha_IntroductionTests.swift; sourceTree = "<group>"; };
+		8417D7A8297777FB00DE435C /* Bao Ha IntroductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bao Ha IntroductionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417D7AC297777FB00DE435C /* Bao_Ha_IntroductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bao_Ha_IntroductionUITests.swift; sourceTree = "<group>"; };
+		8417D7AE297777FB00DE435C /* Bao_Ha_IntroductionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bao_Ha_IntroductionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8417D785297777F700DE435C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417D79B297777FB00DE435C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417D7A5297777FB00DE435C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8417D77F297777F700DE435C = {
+			isa = PBXGroup;
+			children = (
+				8417D78A297777F700DE435C /* Bao Ha Introduction */,
+				8417D7A1297777FB00DE435C /* Bao Ha IntroductionTests */,
+				8417D7AB297777FB00DE435C /* Bao Ha IntroductionUITests */,
+				8417D789297777F700DE435C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8417D789297777F700DE435C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8417D788297777F700DE435C /* Bao Ha Introduction.app */,
+				8417D79E297777FB00DE435C /* Bao Ha IntroductionTests.xctest */,
+				8417D7A8297777FB00DE435C /* Bao Ha IntroductionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8417D78A297777F700DE435C /* Bao Ha Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				8417D78B297777F700DE435C /* AppDelegate.swift */,
+				8417D78D297777F700DE435C /* SceneDelegate.swift */,
+				8417D78F297777F700DE435C /* ViewController.swift */,
+				8417D791297777F700DE435C /* Main.storyboard */,
+				8417D794297777FA00DE435C /* Assets.xcassets */,
+				8417D796297777FA00DE435C /* LaunchScreen.storyboard */,
+				8417D799297777FA00DE435C /* Info.plist */,
+			);
+			path = "Bao Ha Introduction";
+			sourceTree = "<group>";
+		};
+		8417D7A1297777FB00DE435C /* Bao Ha IntroductionTests */ = {
+			isa = PBXGroup;
+			children = (
+				8417D7A2297777FB00DE435C /* Bao_Ha_IntroductionTests.swift */,
+			);
+			path = "Bao Ha IntroductionTests";
+			sourceTree = "<group>";
+		};
+		8417D7AB297777FB00DE435C /* Bao Ha IntroductionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8417D7AC297777FB00DE435C /* Bao_Ha_IntroductionUITests.swift */,
+				8417D7AE297777FB00DE435C /* Bao_Ha_IntroductionUITestsLaunchTests.swift */,
+			);
+			path = "Bao Ha IntroductionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8417D787297777F700DE435C /* Bao Ha Introduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417D7B2297777FB00DE435C /* Build configuration list for PBXNativeTarget "Bao Ha Introduction" */;
+			buildPhases = (
+				8417D784297777F700DE435C /* Sources */,
+				8417D785297777F700DE435C /* Frameworks */,
+				8417D786297777F700DE435C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bao Ha Introduction";
+			productName = "Bao Ha Introduction";
+			productReference = 8417D788297777F700DE435C /* Bao Ha Introduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8417D79D297777FB00DE435C /* Bao Ha IntroductionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417D7B5297777FB00DE435C /* Build configuration list for PBXNativeTarget "Bao Ha IntroductionTests" */;
+			buildPhases = (
+				8417D79A297777FB00DE435C /* Sources */,
+				8417D79B297777FB00DE435C /* Frameworks */,
+				8417D79C297777FB00DE435C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8417D7A0297777FB00DE435C /* PBXTargetDependency */,
+			);
+			name = "Bao Ha IntroductionTests";
+			productName = "Bao Ha IntroductionTests";
+			productReference = 8417D79E297777FB00DE435C /* Bao Ha IntroductionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8417D7A7297777FB00DE435C /* Bao Ha IntroductionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417D7B8297777FB00DE435C /* Build configuration list for PBXNativeTarget "Bao Ha IntroductionUITests" */;
+			buildPhases = (
+				8417D7A4297777FB00DE435C /* Sources */,
+				8417D7A5297777FB00DE435C /* Frameworks */,
+				8417D7A6297777FB00DE435C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8417D7AA297777FB00DE435C /* PBXTargetDependency */,
+			);
+			name = "Bao Ha IntroductionUITests";
+			productName = "Bao Ha IntroductionUITests";
+			productReference = 8417D7A8297777FB00DE435C /* Bao Ha IntroductionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8417D780297777F700DE435C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8417D787297777F700DE435C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8417D79D297777FB00DE435C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8417D787297777F700DE435C;
+					};
+					8417D7A7297777FB00DE435C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8417D787297777F700DE435C;
+					};
+				};
+			};
+			buildConfigurationList = 8417D783297777F700DE435C /* Build configuration list for PBXProject "Bao Ha Introduction" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8417D77F297777F700DE435C;
+			productRefGroup = 8417D789297777F700DE435C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8417D787297777F700DE435C /* Bao Ha Introduction */,
+				8417D79D297777FB00DE435C /* Bao Ha IntroductionTests */,
+				8417D7A7297777FB00DE435C /* Bao Ha IntroductionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8417D786297777F700DE435C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417D798297777FA00DE435C /* LaunchScreen.storyboard in Resources */,
+				8417D795297777FA00DE435C /* Assets.xcassets in Resources */,
+				8417D793297777F700DE435C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417D79C297777FB00DE435C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417D7A6297777FB00DE435C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8417D784297777F700DE435C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417D790297777F700DE435C /* ViewController.swift in Sources */,
+				8417D78C297777F700DE435C /* AppDelegate.swift in Sources */,
+				8417D78E297777F700DE435C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417D79A297777FB00DE435C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417D7A3297777FB00DE435C /* Bao_Ha_IntroductionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417D7A4297777FB00DE435C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417D7AF297777FB00DE435C /* Bao_Ha_IntroductionUITestsLaunchTests.swift in Sources */,
+				8417D7AD297777FB00DE435C /* Bao_Ha_IntroductionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8417D7A0297777FB00DE435C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8417D787297777F700DE435C /* Bao Ha Introduction */;
+			targetProxy = 8417D79F297777FB00DE435C /* PBXContainerItemProxy */;
+		};
+		8417D7AA297777FB00DE435C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8417D787297777F700DE435C /* Bao Ha Introduction */;
+			targetProxy = 8417D7A9297777FB00DE435C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8417D791297777F700DE435C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417D792297777F700DE435C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8417D796297777FA00DE435C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8417D797297777FA00DE435C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8417D7B0297777FB00DE435C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8417D7B1297777FB00DE435C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8417D7B3297777FB00DE435C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bao Ha Introduction/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "T.Bao-Ha-Introduction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8417D7B4297777FB00DE435C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bao Ha Introduction/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "T.Bao-Ha-Introduction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8417D7B6297777FB00DE435C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "T.Bao-Ha-IntroductionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bao Ha Introduction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bao Ha Introduction";
+			};
+			name = Debug;
+		};
+		8417D7B7297777FB00DE435C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "T.Bao-Ha-IntroductionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bao Ha Introduction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bao Ha Introduction";
+			};
+			name = Release;
+		};
+		8417D7B9297777FB00DE435C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "T.Bao-Ha-IntroductionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bao Ha Introduction";
+			};
+			name = Debug;
+		};
+		8417D7BA297777FB00DE435C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "T.Bao-Ha-IntroductionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bao Ha Introduction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8417D783297777F700DE435C /* Build configuration list for PBXProject "Bao Ha Introduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417D7B0297777FB00DE435C /* Debug */,
+				8417D7B1297777FB00DE435C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8417D7B2297777FB00DE435C /* Build configuration list for PBXNativeTarget "Bao Ha Introduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417D7B3297777FB00DE435C /* Debug */,
+				8417D7B4297777FB00DE435C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8417D7B5297777FB00DE435C /* Build configuration list for PBXNativeTarget "Bao Ha IntroductionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417D7B6297777FB00DE435C /* Debug */,
+				8417D7B7297777FB00DE435C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8417D7B8297777FB00DE435C /* Build configuration list for PBXNativeTarget "Bao Ha IntroductionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417D7B9297777FB00DE435C /* Debug */,
+				8417D7BA297777FB00DE435C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8417D780297777F700DE435C /* Project object */;
+}
